@@ -1,0 +1,30 @@
+{
+  "name": "elder-joy-volunteer-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for Elder Joy Care Center volunteer registration with email notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "payment": "node payment-server.js"
+  },
+  "keywords": [
+    "volunteer",
+    "registration",
+    "ngo",
+    "email",
+    "nodemailer"
+  ],
+  "author": "Elder Joy Care Center",
+  "license": "ISC",
+  "dependencies": {
+    "cashfree-pg": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
